@@ -1,5 +1,17 @@
 # astro
 
+## 5.13.5
+
+### Patch Changes
+
+- [#14283](https://github.com/withastro/astro/pull/14283) [`3224637`](https://github.com/withastro/astro/commit/3224637eca5c065872d92449216cb33baac2dbfd) Thanks [@ematipico](https://github.com/ematipico)! - Fixes an issue where CSP headers were incorrectly injected in the development server.
+
+- [#14275](https://github.com/withastro/astro/pull/14275) [`3e2f20d`](https://github.com/withastro/astro/commit/3e2f20d07e92b1acfadb1357a59b6952e85227f3) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Adds support for experimental CSP when using experimental fonts
+
+  Experimental fonts now integrate well with experimental CSP by injecting hashes for the styles it generates, as well as `font-src` directives.
+
+  No action is required to benefit from it.
+
 ## 5.13.4
 
 ### Patch Changes
